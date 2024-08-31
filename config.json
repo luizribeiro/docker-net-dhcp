@@ -32,7 +32,7 @@
     "pidhost": true,
     "mounts": [
         {
-            "source": "/var/run/docker.sock",
+            "source": "/run/docker.sock",
             "destination": "/run/docker.sock",
             "type": "bind",
             "options": [
